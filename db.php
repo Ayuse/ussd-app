@@ -6,7 +6,7 @@ class DBConnector
     var $pdo;
     function __construct()
     {
-        $dsn = "mysql:host=" . Util::$SERVER_NAME . ";dbname=" . Util::$DB_NAME . "";
+        $dsn = "mysql:host=" . Util::$SERVER_NAME . ";port=8889;dbname=" . Util::$DB_NAME . "";
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_EMULATE_PREPARES => false,
