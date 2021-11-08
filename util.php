@@ -6,7 +6,7 @@ class Util
     public static $DB_NAME = 'ussdsms';
     public static $DB_USER = "root";
     public static $DB_USER_PASS = "";
-    public static $SERVER_NAME = 'localhost';
+    public static $SERVER_NAME = '127.0.0.1';
 
 
     //About
