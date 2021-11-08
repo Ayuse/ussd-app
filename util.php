@@ -5,8 +5,8 @@ class Util
     //DB Varaible
     public static $DB_NAME = 'ussdsms';
     public static $DB_USER = "root";
-    public static $DB_USER_PASS = "root";
-    public static $SERVER_NAME = '127.0.0.1';
+    public static $DB_USER_PASS = "";
+    public static $SERVER_NAME = 'localhost';
 
 
     //About
